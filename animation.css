@@ -1,0 +1,49 @@
+.animation{
+    width: 200px;
+    height: 300px;
+    background-color: pink;
+    animation-name: Color;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes Color{
+    0% { background-color: pink; }
+
+    25% { background-color: blue; }
+
+    50% { background-color: green; }
+
+    75% { background-color: red; }
+
+    100% { background-color: yellow; }
+}
+
+.animation1{
+    background-color: pink;
+    animation-name: Color;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes Color{
+    0% { height: 40px; width: 25px; }
+
+    25% { height: 40px; width: 125px; background-color: orange; }
+
+    50% { height: 40px; width: 225px; background-color: blueviolet; }
+
+    75% { height: 80px; width: 325px; background-color: aqua; }
+
+    100% { height: 120px; width: 425px; background-color: brown; }
+}
